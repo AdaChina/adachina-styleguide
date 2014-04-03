@@ -1,9 +1,18 @@
 ## 艾道编程规范和Git工作流程
-本规范是旨在规范艾道公司编程语言的编程规范和Git协同合作的工作流程。
+欢迎加入艾道开发团队，我们将共同成长，迎接挑战。在你准备挽起袖子大干一场之前，请花半个小时认真阅读以下规范，这将帮助你更好地融入团队和建立沟通。
 
-### Git工作流程和规范
-[Git](git-workflow.md)
+### Git
 
-### Ruby编程规范
+[Git工作流程和规范](src/master/git-workflow.md)
 
-### Rails编程规范
+### Ruby
+
+[Ruby编程规范](http://guides.ruby.tw/ruby-rails-style-guides/zhCN/#ruby)
+
+[Ruby style guide](https://github.com/bbatsov/ruby-style-guide)
+
+### Rails
+
+[Rails编程规范](http://guides.ruby.tw/ruby-rails-style-guides/zhCN/#rails)
+
+[Rails style guide](https://github.com/bbatsov/rails-style-guide)
