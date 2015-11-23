@@ -3,7 +3,7 @@
 
 ### Git
 
-[Git工作流程和规范](src/master/git-workflow.md)
+[Git工作流程和规范](https://bitbucket.org/adachina/adachina-styleguide/src/91c80232c13e673c243b07e122518fd452c672d2/git-workflow.md?at=master&fileviewer=file-view-default)
 
 ### Ruby
 
