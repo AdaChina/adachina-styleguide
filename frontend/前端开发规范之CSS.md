@@ -51,6 +51,17 @@
 		input.btn,
 		input[type="button"] {…};
 		
+* 选择器层叠不能超过三层
+
+* 避免使用CSS通配符 *
+
+* 尽量使用类选择器 
+
+* 为动画的 HTML 元件使用 fixed 或 absoult 的 position，那么修改他们的 CSS 是会大大减小 reflow
+
+ 
+
+
 ###优化CSS选择器
 
 > `#header a { color: #444; };/*CSS选择器是从右边到左边进行匹配*/`
@@ -66,6 +77,8 @@
 * 不要使用 ul li a 这样长的选择符
 
 * 避免使用标签子选择符，如#header > li > a
+
+
 
 
 

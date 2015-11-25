@@ -70,6 +70,8 @@ HTML 属性应当按照以下给出的顺序依次排列，确保代码的易读
     		<input type="text" id="test" />
 		</p>
 
+* 书写HTML少使用table布局，因为可能很小的一个小改动会造成整个 table 的重新布局。
+
 
 
 
