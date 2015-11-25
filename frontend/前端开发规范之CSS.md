@@ -1,4 +1,4 @@
-#web前端规范之CSS
+##web前端规范之CSS
 
 ###css属性顺序
 元素显示属性 —> 元素布局定位属性 –> 元素属性 –> 元素内容属性 –> 其他属性
@@ -77,6 +77,12 @@
 * 不要使用 ul li a 这样长的选择符
 
 * 避免使用标签子选择符，如#header > li > a
+
+***
+###参考文档
+
+[前端开发规范手册](https://github.com/Aaaaaashu/Front-End-Style-Guide)
+
 
 
 

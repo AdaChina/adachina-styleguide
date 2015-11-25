@@ -1,4 +1,4 @@
-#web前端规范之Javascript
+##web前端规范之Javascript
 
 ###命名规范
 * 常量名: 全部大写并单词间用下划线分隔
@@ -50,6 +50,12 @@
 * 避免额外的逗号
 
 		var arr = [1,2,3,];
+		
+* 同时定义多个变量，用逗号隔开
+
+		var a = 1,     		b = 2,     		c = 3;
+ * 同时需要用到多个引号时，单引号嵌套双引号
+ 		var tag = '<div class="box"></div>';
 	
 ###在==时，则会有一些让人难以理解的陷阱
 
@@ -105,6 +111,11 @@
 	el.style.top  = top  + "px";
 	// 推荐写法
 	el.className += " theclassname";
+	
+***
+###参考文档
+
+[前端开发规范手册](https://github.com/Aaaaaashu/Front-End-Style-Guide)
 		
 	
 	
