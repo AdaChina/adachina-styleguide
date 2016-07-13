@@ -1,8 +1,6 @@
 # Git工作流及操作规范
-------
 
 ## 前言
-------
 
 阅读之前，你需要对这些有所了解：
 
@@ -11,7 +9,6 @@
 
 
 ## 我们使用的工作流
-------
 
 我们使用的工作流基于[gitlab workflow](https://about.gitlab.com/2014/09/29/gitlab-flow/)，根据我们开发现状调整而来。
 
@@ -44,7 +41,6 @@
 
 
 ## Git操作规范
--------
 
 开发过程中使用Git必须按步骤并遵守以下规范。
 
@@ -98,14 +94,14 @@ $ git merge origin/master
 	标题：[FEATURE] 功能的描述
 	内容：功能实现的说明，可以包括功能设计的要点，实现的方式
 	
-	例：![feature example](a)
+	例：![feature example](https://raw.githubusercontent.com/AdaChina/adachina-styleguide/master/images/feature_branch.png)
 
 * bug修复分支
 	
 	标题：[FIX] 修复问题的描述
 	内容：问题的根本原因，问题的解决方法
 	
-	例：![bug example](b)
+	例：![bug example](https://raw.githubusercontent.com/AdaChina/adachina-styleguide/master/images/fix_branch.png)
 
 ### 多人协作
 ------
@@ -124,16 +120,17 @@ $ git pull origin feature-download-page
 
 ### 关于rebase
 ------
+
 尽管[rebase](https://git-scm.com/book/zh/v1/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%9A%84%E8%A1%8D%E5%90%88)很好很强大，但不推荐使用。
 
 #### 好处
 rebase可以修改提交记录，同步分支时使用rebase能得到更加干净的提交历史，例子如下：
 
 * merge会把你和远程分支的修改按时间排序并自动添加一次提交
-	![merge example](a)
+	![merge example](https://raw.githubusercontent.com/AdaChina/adachina-styleguide/master/images/merge.png)
 
 * 而rebase会把你的提交放到远程分支之后
-	![rebase example](b)
+	![rebase example](https://raw.githubusercontent.com/AdaChina/adachina-styleguide/master/images/rebase.png)
 
 #### 风险
 千万不要对你已发布到远程仓库的提交记录做rebase操作(即修改已提交的记录)，你只可以对自己未提交commit做rebase。[否则，人民群众会仇恨你，你的朋友和家人也会嘲笑你，唾弃你。](https://git-scm.com/book/zh/v1/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%9A%84%E8%A1%8D%E5%90%88#衍合的风险)总之，rebase有可能发生难以预料的修改结果。
