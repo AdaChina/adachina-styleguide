@@ -32,3 +32,4 @@
 [web前端规范之图片规范](https://bitbucket.org/adachina/adachina-styleguide/src/a410fd21472f122aa1c6369c8ed107651a4b63f7/frontend/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83%E4%B9%8B%E5%9B%BE%E7%89%87%E8%A7%84%E8%8C%83.md?at=master&fileviewer=file-view-default)
 
 [webview 调试环境](https://bitbucket.org/adachina/adachina-styleguide/src/0554a2dc51757e55b9185e41932e1f63aec5f7ac/frontend/webview%20%E8%B0%83%E8%AF%95%E7%8E%AF%E5%A2%83.md?at=master&fileviewer=file-view-default)
+
