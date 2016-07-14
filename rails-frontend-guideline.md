@@ -1,4 +1,4 @@
-# Rails前端指引
+# 给Rails做前端，你需要知道的知识(v0.1)
 
 ## 前言
 
@@ -194,7 +194,7 @@ lib/assets/
 vendor/assets/
 ```
 
-要把哪些文件打包到合并之后的js、css文件都是可以自己配置的。下面说的是rails的默认行为，具体配置文件也是可以根据需要配置，但是一般不会需要。配置文件内容如下：
+要把哪些文件打包到合并之后的js、css文件都是可以自己配置的。下面说的是rails的默认行为，具体配置文件也是可以根据需要配置，但是一般不会。配置文件内容如下：
 
 ```javascript
 // 引用js的配置在这里: app/assets/javascripts/application.js
@@ -227,6 +227,10 @@ vendor/assets/
 */
 ```
 
+### 如何引用图片、音频等资源
+
+前面提到，Asset Pipeline编译后的文件会在文件名加上一个hash值，所以如果你直接引用图片的原文件名是无法引用这些文件的。因此Rails(实际上是Sporket)提供了这些helpers来引用assets资源。你可以使用[image_path](http://apidock.com/rails/ActionView/Helpers/AssetUrlHelper/image_path)、[audio_path](http://apidock.com/rails/ActionView/Helpers/AssetUrlHelper/audio_path)、[video_path](http://apidock.com/rails/ActionView/Helpers/AssetUrlHelper/video_path)等，要注意的是，例如image_path，传入的参数是相对路径的话，默认指`assets/images/`目录下，生成路径为`host/assets/images/your_path`，而使用绝对路径如`/your_path`时，url指向`host/your_path`，另外也可以使用一个完整的url。
+
 ### 单独引用的js、css文件
 
 你也可以不把js、css文件打包到全局文件中。将你的js和css文件目录为`assets/path/to/yourjsfile.js`和`assets/path/to/yourcssfile.css`，在erb文件中这样引用：
@@ -244,4 +248,9 @@ vendor/assets/
 # 在这段中的%w()中加入你的文件路径，以空格隔开
 Rails.application.config.assets.precompile += %w( path/to/yourjsfile.js path/to/yourcssfile.css )
 ```
+
+## 最后
+
+这篇文章注重具体问题，讲述的都是在给rails做前端开发时可能会产生的疑惑，也没有太过深入的作解释。如果你对Ruby on Rails有兴趣，请务必试着学一下:)。
+
 
