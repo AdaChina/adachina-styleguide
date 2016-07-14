@@ -19,6 +19,8 @@
 
 ### Frontend
 
+[给Rails做前端，你需要知道的知识](https://github.com/AdaChina/adachina-styleguide/blob/master/rails-frontend-guideline.md)
+
 [前端开发静态环境搭建](https://github.com/AdaChina/adachina-styleguide/blob/master/frontend/%E5%89%8D%E7%AB%AF%E9%9D%99%E6%80%81%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)
 
 [web前端规范总览](https://github.com/AdaChina/adachina-styleguide/blob/master/frontend/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83%E6%96%87%E6%A1%A3%E6%80%BB%E8%A7%88.md)
