@@ -181,9 +181,10 @@ global-908e25f4bf641868d8683022a5b62f54.css
 
 ### js、css和图片放哪里
 
-Asset Pipeline在打包的时候，会把Rails项目中的这三个目录看作成同一个目录。但是我们放置的时候一般有一下规则：
+~~Asset Pipeline在打包的时候，会把Rails项目中的这三个目录看作成同一个目录。但是我们放置的时候一般有一下规则：~~
 
 ```bash
+# Rails 4 以下
 # 这个目录用来放置自己编写的js、css等文件
 app/assets/
 
@@ -193,6 +194,8 @@ lib/assets/
 # 这个目录用来放置要引入的第三方库
 vendor/assets/
 ```
+
+**从Rails 4 开始，Asset Pipeline只会预编译app/assets/目录下的js、css文件**
 
 要把哪些文件打包到合并之后的js、css文件都是可以自己配置的。下面说的是rails的默认行为，具体配置文件也是可以根据需要配置，但是一般不会。配置文件内容如下：
 
