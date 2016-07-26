@@ -102,6 +102,13 @@ $ git merge origin/master
 	内容：问题的根本原因，问题的解决方法
 	
 	例：![bug example](https://raw.githubusercontent.com/AdaChina/adachina-styleguide/master/images/fix_branch.png)
+	
+* 项目维护
+
+	标题：[MAINTAIN] 修改的主要内容
+	内容：内容详细描述
+	
+	例：![maintain example](https://raw.githubusercontent.com/AdaChina/adachina-styleguide/master/images/maintain_branch.png)
 
 ### 多人协作
 ------
